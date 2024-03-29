@@ -1,0 +1,23 @@
+.main-button {
+    width: 100%;
+    height: 48px;
+    background-color: #316fea;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    cursor: pointer;
+    transition: background-color 0.5s ease 0s;
+    position: relative;
+    top: 0;
+
+        &:hover {
+            background-color: #0d40a7;
+        }
+
+        &:active {
+            top: 3px;
+        }
+}

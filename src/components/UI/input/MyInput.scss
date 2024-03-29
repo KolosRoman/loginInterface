@@ -1,0 +1,16 @@
+.myinput {
+    width: 100%;
+    height: 48px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 6px;
+    border: 1.20px solid #d3d8dc;
+    padding: 0 16px;
+    outline: none;
+    transition: all 0.5s ease 0s;
+
+    &:focus {
+        box-shadow: 0 0 5px #316fea;
+    }
+}
