@@ -1,11 +1,5 @@
-import React, {useState, useEffect} from 'react';
-import {Route, Routes, Link} from 'react-router-dom';
-import { ForgotPassword } from './ForgotPassword.jsx';
-import { LoginText } from './Text/LoginText/LoginText.jsx';
-import { MainTitle } from './Text/MainLogo/MainLogo.jsx';
-import { MainButton } from './UI/button/MainButton.jsx';
+import React, {useState} from 'react';
 import { MyInput } from './UI/input/MyInput.jsx';
-import { NetworksButton } from './UI/networksButton/NetworksButton.jsx';
 
 
 
@@ -16,11 +10,6 @@ export const ValidEmail = ({correctEmail, text}) => {
     const [emailError, setEmailError] = useState('Поле не має бути порожнім');
 
 
-    // useEffect(() => {
-    //     if (!emailError) {
-    //         correctEmail(email)
-    //     }
-    // }, [emailError])
 
 
     const blurInput = (e) => {
